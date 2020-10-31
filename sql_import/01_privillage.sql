@@ -1,0 +1,4 @@
+USE boxbilling;
+CREATE USER foo@'%' IDENTIFIED BY 'foo';
+GRANT ALL ON *.* TO foo@'%';
+FLUSH PRIVILEGES;
