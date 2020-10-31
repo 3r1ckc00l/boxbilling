@@ -39,13 +39,13 @@ Instruction
 
 Run docker compose to install boxbilling on your localhost (wait for a long process download and grab some coffee to enjoy your life) :D
 
-    $docker-compose up -d
+ `$docker-compose up -d`
    
 Here is MySQL credential for login into mysql server or remote DB manager apps:
 
-  MYSQL_HOST: 127.0.0.1
-  MYSQL_DATABASE: boxbilling
-  MYSQL_USER: foo
-  MYSQL_PASSWORD: foo
-  MYSQL_ROOT_PASSWORD: foo
+  * MYSQL_HOST: 127.0.0.1
+  * MYSQL_DATABASE: boxbilling
+  * MYSQL_USER: foo
+  * MYSQL_PASSWORD: foo
+  * MYSQL_ROOT_PASSWORD: foo
   
