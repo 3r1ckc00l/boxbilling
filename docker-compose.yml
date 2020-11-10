@@ -44,6 +44,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
+      - dbdata:/var/lib/mysql/
       - ./mysql/my.cnf:/etc/my.cnf
     environment:
       MYSQL_DATABASE: boxbilling
@@ -58,9 +59,9 @@ services:
 #Docker Networks
 networks:
   app-network:
-    driver: bridge
+      driver: bridge
 
 #Volumes
 volumes:
-  lbdata:
+  dbdata:
     driver: local
